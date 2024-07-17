@@ -1,0 +1,105 @@
+/* Header ko CSS xa all                                                       */
+
+
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the navbar */
+.navbar {
+    background-color: #e2bcbc;
+    color: #1a1813;
+    padding: 10px;
+}
+
+/* Style the container to control width and center content */
+.container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style the navbar brand (h1) */
+.navbar-brand {
+    text-decoration: none;
+    color: #130808;
+    font-size: 1.5em; /* Adjust the font size as needed */
+    margin: 0;
+}
+
+/* Style the right-side content */
+.navbar span {
+    display: flex;
+    align-items: center;
+}
+
+/* Style icons and text in the right-side content */
+.navbar i {
+    margin: 0 5px;
+}
+
+/* Style links in the right-side content */
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Adjust spacing for the last link in the right-side content */
+.navbar a:last-child {
+    margin-right: 0;
+}
+
+
+
+
+/* Aaba Main Ko CSS xa AAba */
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the main content */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Style the dash container */
+.dash {
+    background-color: #f7f3f3ac;
+    color: #210202;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* Style the board container */
+.board {
+    display: flex;
+    justify-content: space-between;
+    width: 50%; /* Adjust the width as needed */
+    background-color: brown;
+}
+
+/* Style the anchor tags within the board */
+.board a {
+    text-decoration: none;
+    color: #dec4c4; /* Change the color to your preference */
+    padding: 5px 10px;
+    background-color: #fff; /* Change the background color to your preference */
+    border-radius: 5px;
+}
+
+/* Adjust margin for better spacing */
+.board a:first-child {
+    margin-right: 5px;
+    background-color: brown;
+}
+.board a:last-child{
+    background-color: brown;
+}
+

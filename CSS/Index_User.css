@@ -1,0 +1,94 @@
+/* 
+
+
+/* Card Ko CSS Start Here And */
+
+.card-collection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card {
+  
+  width: 18rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 20px; 
+
+
+
+  /* display: inline-block; */
+ }
+
+.card-img-top {
+  width: 100%;
+  height: 200px;
+}
+
+.card-body {
+  padding: 20px;
+  text-align: center;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+  font-size: bold;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 5px;
+} 
+
+ .btn {
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+} 
+ 
+ .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Align items in the center */
+ }
+
+/* End Of Card CSS */
+
+
+
+/* CSS For heading h1 i.e Home */
+
+ .heading{
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  text-align: center;
+  background-color: aqua; 
+ }
+ 
+
+/* Input Button Ko CSS XA */
+.inputsubmitbutton{
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 5px;
+}
+
+.inputsubmitbutton:hover {
+  background-color: #45a049;
+}
+
+
+  

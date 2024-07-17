@@ -1,0 +1,19 @@
+/* CSS for the element with ID 'ram' */
+#ram {
+    margin: 0px;           /* Sets margin to 5 pixels */
+    font-size: 20px;        /* Sets font size to 5 pixels */
+    font-family: monospace; /* Sets font type to monospace */
+    text-align: center;    /* Centers the text horizontally */
+}
+
+/* CSS for the element with ID 'hari' */
+#hari {
+    position: fixed;            /* Fixes the position to the bottom of the viewport */
+    bottom: 0;                  /* Aligns the element to the bottom */
+    width: 100%;                /* Ensures the element spans the full width of the parent */
+    color: white;               /* Sets the text color to white */
+    background-color: red;      /* Sets the background color to red (danger) */
+    padding-top: 2px;           /* Adds padding of 2 pixels to the top */
+    padding-bottom: 2px;        /* Adds padding of 2 pixels to the bottom */
+    margin-bottom: 0;           /* Removes any margin at the bottom */
+}
