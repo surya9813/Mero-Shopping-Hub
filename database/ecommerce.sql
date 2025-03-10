@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3308
--- Generation Time: Jul 17, 2024 at 03:27 AM
+-- Generation Time: Mar 10, 2025 at 01:59 AM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -67,7 +67,8 @@ INSERT INTO `tblproduct` (`id`, `PName`, `PPrice`, `PImage`, `PCategory`) VALUES
 (34, 'Mac Book', '150000', 'Uploadimage/pexels-shvetsa-5325003.jpg', 'laptop'),
 (35, 'Ladies Bag', '1400', 'Uploadimage/S0a8a3a4e712b44a8a1273905c68a2fad5.jpg_640x640Q90.jpg_.webp', 'bag'),
 (36, 'Hand Bag', '1600', 'Uploadimage/image_file__16597.jpg', 'bag'),
-(37, 'Samsung', '887676', 'Uploadimage/Screenshot (145).png', 'mobile');
+(37, 'Samsung', '887676', 'Uploadimage/Screenshot (145).png', 'mobile'),
+(38, 'Samsung', '22000', 'Uploadimage/IMG_20230520_170535_952.jpg', 'mobile');
 
 -- --------------------------------------------------------
 
@@ -140,7 +141,7 @@ ALTER TABLE `admin`
 -- AUTO_INCREMENT for table `tblproduct`
 --
 ALTER TABLE `tblproduct`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=38;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=39;
 
 --
 -- AUTO_INCREMENT for table `tbluser`

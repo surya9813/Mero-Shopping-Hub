@@ -88,6 +88,10 @@
                 <h3>Total</h3>
                 <h1 class="danger"><?php  echo number_format($total,2) ?></h1>
             </div>
+
+            <div>
+            <h3><a href="Checkout.php">PROCEED TO CHECKOUT</a></h3>
+            </div>
         </div>
     </div>
 </body>
