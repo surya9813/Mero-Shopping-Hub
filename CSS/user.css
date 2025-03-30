@@ -1,4 +1,3 @@
-/* user.css */
 
 /* Apply styles to the table */
 table {
@@ -13,12 +12,10 @@ table td {
     text-align: left;
 }
 
-/* Style the table header */
 table th {
     background-color: #f2f2f2;
 }
 
-/* Style the delete link */
 .anchor a {
     text-decoration: none;
     color: red;
@@ -28,17 +25,17 @@ table th {
 /* Apply margin top to the container */
 .container {
     margin-top: 5px;
-    float: left; /* Position the container div to the left */
-    width: 70%; /* Adjust the width as needed */
+    float: left; 
+    width: 70%; 
 }
 
 /* Position the total div to the right of the container */
 .total {
-    float: right; /* Position the total div to the right */
-    width: 120px; /* Set the width as needed */
-    height: 40px; /* Set the height as needed */
+    float: right; 
+    width: 120px; 
+    height: 40px; 
     text-align: center;
-    line-height: 40px; /* Vertical centering */
+    line-height: 40px; 
     margin-top: 15px;
     margin-right: 40px;
 }

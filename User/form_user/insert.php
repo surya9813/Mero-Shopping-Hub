@@ -1,10 +1,7 @@
 
 <?php
 // Database connection
-$con = mysqli_connect('localhost:3308', 'root', '', 'ecommerce');
-if (!$con) {
-    die("Connection failed: " . mysqli_connect_error());
-}
+include("../Config.php");
 
 if (isset($_POST['submit'])) {
     // Retrieve and sanitize inputs

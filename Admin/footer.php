@@ -8,8 +8,7 @@
 </head>
 <body>
     <div id="ram">
-        <p id="hari">Copyright &copy 2024 Copyright with surya</p>
-         
+        <p id="hari">Copyright &copy 2024 All Rights are Reserved</p>
     </div>
 </body>
 </html>

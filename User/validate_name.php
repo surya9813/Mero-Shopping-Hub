@@ -1,6 +1,6 @@
 <?php
 
-$con = mysqli_connect('localhost:3308','root','','ecommerce');
+include("Config.php");
 if(isset($_POST['submit'])){
     $Name = $_POST['name'];
     $Email = $_POST['email'];

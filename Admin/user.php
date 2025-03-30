@@ -55,11 +55,7 @@
             <?php echo $row_count; ?>
         </h1>
     </div>
-    <?php
-
-include 'footer.php';
-
-?>
+    <?php include 'footer.php';?>
 
 </body>
 

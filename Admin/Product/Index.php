@@ -57,7 +57,7 @@
                     </thead>
                     <tbody>
                         <?php
-                        include 'Config.php';
+                        include '../Config.php';
                         $Record = mysqli_query($con, "SELECT * FROM `tblproduct`");
                         while ($row = mysqli_fetch_array($Record))
                             echo "
@@ -78,11 +78,7 @@
         </div>
     </div>
 
-    <?php
-
-include 'footer.php';
-
-?>
+    <?php include 'footer.php';?>
 
 </body>
 

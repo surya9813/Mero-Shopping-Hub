@@ -1,13 +1,12 @@
-/* register.css */
 
 /* Style for the form container */
 .container {
     margin: auto;
-    max-width: 400px; /* Adjust width as needed */
+    max-width: 400px; 
     padding: 20px;
-    border: 1px solid #ccc; /* Border color */
-    border-radius: 8px; /* Rounded corners */
-    background-color: #f9f9f9; /* Light gray background */
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    background-color: #f9f9f9; 
 }
 
 /* Style for the form title */
@@ -17,32 +16,30 @@
     margin-bottom: 20px;
 }
 
-/* Style for form inputs */
 .form-control {
     display: block;
     width: 100%;
     padding: 10px;
     font-size: 16px;
     margin-bottom: 15px;
-    border: 1px solid #ddd; /* Border color */
-    border-radius: 4px; /* Rounded corners */
+    border: 1px solid #ddd; 
+    border-radius: 4px; 
     transition: border-color 0.3s;
 }
 
-/* Style for buttons */
 button {
     width: 100%;
     padding: 10px;
     font-size: 16px;
     border: none;
-    border-radius: 4px; /* Rounded corners */
+    border-radius: 4px; 
     cursor: pointer;
     transition: background-color 0.3s;
 }
 
-/* Button hover effect */
+/* Button hover  */
 button:hover {
-    background-color: #ddd; /* Light gray background on hover */
+    background-color: #ddd; 
 }
 
 

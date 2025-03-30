@@ -26,34 +26,27 @@ include 'Config.php';
         if($check_page === 'mobile'){
 
         echo "
-
-<div class='card'>
-<form action='Insertcart.php' method = 'POST'>
-  <img src='../Admin/Product/$row[PImage]' class='card-img-top' alt='Placeholder Image'>
-  <div class='card-body'>
-    <h5 class='card-title'>$row[PName]</h5>
-    <p class='card-text'>RS:  $row[PPrice]</p>
-    <input type='hidden' name='PName' id='' value='$row[PName]'>
-    <input type='hidden' name='PPrice' id='' value='$row[PPrice]'>
-    <input type='number' name='PQuantity' value=' min='1' max='20'' placeholder='Quantity'>
-    <input type='submit' name='addCart'value='Add To Card' class='inputsubmitbutton'>
-  </div>
-</form>
-</div>
-
-";
+              <div class='card'>
+                <form action='Insertcart.php' method = 'POST'>
+                  <img src='../Admin/Product/$row[PImage]' class='card-img-top' alt='Placeholder Image'>
+                  <div class='card-body'>
+                    <h5 class='card-title'>$row[PName]</h5>
+                    <p class='card-text'>RS:  $row[PPrice]</p>
+                    <input type='hidden' name='PName' id='' value='$row[PName]'>
+                    <input type='hidden' name='PPrice' id='' value='$row[PPrice]'>
+                    <input type='number' name='PQuantity' value=' min='1' max='20'' placeholder='Quantity'>
+                   <input type='submit' name='addCart'value='Add To Card' class='inputsubmitbutton'>
+                  </div>
+                </form>
+                </div>
+                ";
         }
     }
-    
     ?>
 
     </div>
 
-    <?php
-
-include 'footer.php';
-
-?>
+    <?php include 'footer.php';?>
 </body>
 
 </html>

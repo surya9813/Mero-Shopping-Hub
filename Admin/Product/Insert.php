@@ -2,7 +2,7 @@
 
 if (isset($_POST['submit'])) {
 
-    include 'Config.php';
+    include '../Config.php';
     $product_name = $_POST['Pname'];
     $product_price = $_POST['Pprice'];
     $product_image = $_FILES['Pimage'];
@@ -23,14 +23,7 @@ if (isset($_POST['submit'])) {
     mysqli_query($con, "INSERT INTO `tblproduct`(`PName`, `PPrice`, `PImage`, `PCategory`) VALUES ('$product_name','$product_price','$img_des','$product_category')");
 
     header("location:index.php");
-}
-
-
-
-
-
-
-?>
+} ?>
 
 
 <!-- Fetch Data -->

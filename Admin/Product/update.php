@@ -10,7 +10,7 @@
 
 <body>
     <?php
-     include'Config.php';
+     include'../Config.php';
      $id = $_GET['ID'];
      $Record = mysqli_query($con,"SELECT * FROM `tblproduct` WHERE id = '$id'");
      $data = mysqli_fetch_array($Record);

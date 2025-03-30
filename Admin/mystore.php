@@ -47,11 +47,7 @@ if(!$_SESSION['admin']){
             <a href="user.php">Users</a>
         </div>
     </main>
-    <?php
-
-include 'footer.php';
-
-?>
+    <?php include 'footer.php';?>
 </body>
 
 </html>

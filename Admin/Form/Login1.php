@@ -1,7 +1,6 @@
 <?php
 
-
-$con = mysqli_connect('localhost:3308','root','','ecommerce');
+include "../Config.php";
 
 $A_name = $_POST['username'];
 $A_password = $_POST['userpassword'];
@@ -10,11 +9,11 @@ $result = mysqli_query($con, " SELECT * FROM `admin` WHERE username ='$A_name' A
 
 session_start();
 
-if(mysqli_num_rows($result)){
+if (mysqli_num_rows($result)) {
 
-    $_SESSION['admin']=$A_name;
-    
-    echo"
+    $_SESSION['admin'] = $A_name;
+
+    echo "
     
     <script>
     alert('Login successfully');
@@ -23,9 +22,8 @@ if(mysqli_num_rows($result)){
     </script>
     
     ";
-}
-else{
-    echo"
+} else {
+    echo "
     
     <script>
     alert('Invalid Username Or Password');
