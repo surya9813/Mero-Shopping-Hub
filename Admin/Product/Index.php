@@ -28,10 +28,12 @@
             <!-- Select Page Category Input -->
             <label for="pageCategory">Select Page Category:</label>
             <select id="Pages" name="Pages" required>
-                <option value="Home" selected>Home</option>
-                <option value="mobile">Mobile</option>
-                <option value="bag">Bag</option>
-                <option value="laptop">Laptop</option>
+                <option value="" selected>Select Category</option>
+                <option value="Redmi">Redmi</option>
+                <option value="Iphone">Iphone</option>
+                <option value="Realme">Realme</option>
+                <option value="Samsung">Samsung</option>
+                <option value="others">others</option>
             </select>
 
             <!-- Submit Button -->
@@ -65,7 +67,7 @@
                                     <td>$row[id]</td>
                                     <td>$row[PName]</td>
                                     <td>$row[PPrice]</td>
-                                    <td><img src='$row[PImage]' height='100px' width='200px'></td>
+                                    <td><img src='$row[PImage]' height='100px' width='100px'></td>
                                     <td>$row[PCategory]</td>
                                     <td><a href='delete.php? ID= $row[id]'style='text-decoration: none;'>Delete</a></td>
                                     <td><a href='update.php? ID= $row[id]'style='text-decoration: none;'>Update</a></td>
@@ -78,7 +80,7 @@
         </div>
     </div>
 
-    <?php include 'footer.php';?>
+    <?php include ("../footer.php");?>
 
 </body>
 

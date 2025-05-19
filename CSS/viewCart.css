@@ -60,7 +60,7 @@ table td {
 }
 
 .row-fluid {
-    display: flex;
+    display: inline;
 }
 
 .row-fluid>* {
@@ -92,6 +92,9 @@ table td {
 
 .col-lg-3 {
     text-align: center;
+    width: 200px;
+    margin-top: 50px;
+
 }
 
 .danger {
@@ -99,4 +102,15 @@ table td {
     color: white;
     padding: 10px;
     border-radius: 5px;
+}
+form{
+    text-align: center;
+}
+.btn-secondary {
+    background-color: #6c757d;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    display: inline-block;
 }

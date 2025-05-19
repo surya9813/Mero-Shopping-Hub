@@ -23,7 +23,7 @@
         <nav class="navbar">
             <div class="container-fluid">
                 <a href="" class="navbar-brand">
-                    <h1><img src="../Image/Logo-black.png" alt=""></h1>
+                    <h1><img id="logo" src="../Image/Logo-black.png" alt=""></h1>
                 </a>
             </div>
             <div class="nav-with">
@@ -52,9 +52,10 @@
     <main>
         <div class="bullet-remove">
             <ul class="anchor">
-                <li><a href="Laptop.php">LAPTOP</a></li>
-                <li><a href="Bag.php">BAG</a></li>
-                <li><a href="Mobile.php">MOBILE</a></li>
+                <li><a href="Laptop.php">Redmi</a></li>
+                <li><a href="Bag.php">Iphone</a></li>
+                <li><a href="Mobile.php">Samsung</a></li>
+                <li><a href="Mobile.php">Realme</a></li>
             </ul>
         </div>
     </main>

@@ -25,7 +25,7 @@ include 'Config.php';
     while ($row = mysqli_fetch_array($Record)) {
 
 
-        echo "
+      echo "
 <form action='Insertcart.php' method = 'POST'>
 <div class='card'>
   <img src='../Admin/Product/$row[PImage]' class='card-img-top' alt='Placeholder Image'>
@@ -41,18 +41,18 @@ include 'Config.php';
 </form>
 
 ";
-      }
-    
+    }
+
 
     ?>
 
   </div>
-<?php
+  <?php
 
-include 'footer.php';
+  include 'footer.php';
 
-?>
-  
+  ?>
+
 </body>
 
 </html>

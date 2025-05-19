@@ -33,7 +33,6 @@ if(!$_SESSION['admin']){
                     Hello,<?php echo $_SESSION['admin'];  ?> |
                     <i class="fa-solid fa-right-from-bracket"></i>
                     <a href="Form/Logout.php">Logout</a>
-                    <a href="../User/Index_User.php">Userpannel</a>
                 </span>
             </div>
         </nav>
